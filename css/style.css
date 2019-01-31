@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: roboto, Verdana, Geneva, Tahoma, sans-serif;
+  overflow-x: hidden;
+  font-weight: 600;
+}
+video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -100;
+}
+.collapse img {
+  width: 2.2em;
+}
+.container {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 0 !important;
+}
+nav {
+  box-shadow: 0 0.5em 0.5em rgba(0, 0, 0, 0.3);
+}
+nav img {
+  width: 5em;
+}
+.carousel {
+  margin-top: 3em;
+}
+.carousel-item img {
+  max-height: 30em;
+}
+.carousel-caption {
+  text-shadow: 0.1em 0.1em 0.1em rgba(0, 0, 0, 0.3);
+  font-size: 1.5em;
+}
+.align-self-center p {
+  font-size: 1.3em;
+}
+article img {
+  max-height: 100%;
+  min-width: 100%;
+  max-width: 100%;
+}
+ul li {
+  list-style-type: none;
+}
+article a {
+  text-decoration: none !important;
+}
+h5 span {
+  font-size: 0.7em;
+}
+.btn-rounded {
+  color: white;
+  background-color: #19d90b;
+  border: 0.2em solid white;
+  border-radius: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+}
+.btn-rounded:hover {
+  color: #19d90b;
+  border-color: #19d90b;
+  background-color: white;
+}
+footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1em;
+  color: white;
+}
+footer img {
+  width: 19em;
+  height: 7em;
+}

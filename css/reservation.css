@@ -1,0 +1,16 @@
+form {
+  margin: 1em;
+}
+.container {
+  margin-top: 6em;
+  margin-bottom: 2em;
+}
+.card {
+  max-width: 100%;
+}
+.card-img-top {
+  max-height: 8em;
+}
+.card-body {
+  padding: 0.3em !important;
+}
